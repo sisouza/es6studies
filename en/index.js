@@ -1,4 +1,4 @@
-/* SCOPES LET, VAR, CONST - ES6*/
+/* SCOPES, LET, VAR, CONST - ES6*/
 
 /* There is three ways to declare JavaScript variables:*/
 var variable1 = 1;
@@ -51,12 +51,10 @@ function showMsg(){
 showMsg()
 
 /* accessing a local var in global scope, it will return an error
-because the var was defined in local scope, so aLocalVar only exists
-inside the function it was set in, Same with let variables*/
+because the var was created in local scope, so aLocalVar only exists
+inside the function it was defined in, Same with let variables*/
 
 console.log(aLocalVar)
-
-
 
 
 /* LET AND VAR DIFFERENCES*/
