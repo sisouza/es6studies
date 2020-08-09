@@ -34,7 +34,7 @@ function show(){
 
 show()
 
-//acessing var in global Scope
+//acessing var in Global Scope
 console.log("We can access var here too:" + aGlobalVar)
 
 
@@ -64,7 +64,7 @@ console.log(aLocalVar)
 let a = 2;
 let b = 1;
 
-//Defining a block and creating a var inside it
+//Defining a block and creating a let variable inside it
 if (a > b){
     let c = "I am a let in a block scope dare to use me out of here"
     console.log(c)

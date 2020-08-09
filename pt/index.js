@@ -16,7 +16,7 @@ já que como o proprio nome indica são constantes :*/
 
 const pi = 3.14;
 
-//tentanto atribuir um novo valor para "pi"
+//tentando atribuir um novo valor para "pi"
 pi = 3.15;
 
 //resultará em erro pois nao podemos alterar o valor de uma constante
@@ -66,7 +66,7 @@ let b = 1;
 
 //definindo um bloco e criando a variavel dentro dele
 if (a > b){
-    let c = "sou let em escopo de bloco ouse me acessar fora daqui"
+    let c = "sou let em escopo de bloco ouse tentar me acessar fora daqui"
     console.log(c)
 }
 
@@ -76,7 +76,7 @@ console.log(c)
 var d = 2;
 var e = 1;
 
-//definindo um bloco e criando a variavel dentro dele
+//definindo um bloco e criando uma variavel dentro dele
 if (d > e){
     var f = "oi sou var em um escopo de bloco"
     console.log(f)
